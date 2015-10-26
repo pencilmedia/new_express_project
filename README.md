@@ -1,43 +1,26 @@
-# new_express_project
+# Create New Express Project
 Includes gruntfile.js and package.json
-
-# New Project
 
 ## INSTALLATION
 ##########################################
 
-Install the following:
-``nodejs / npm``
 
-then...
-
-npm install:
-express
-express-generator
-grunt-cli
-gem install sass ( FOR El Capitan OSX: sudo gem install -n /usr/local/bin sass )
-
-create project:
-express -e <proj-name> (-e for ejs)
-
-npm install:
-grunt
-grunt-sass
-grunt-contrib-watch
-matchdep
+1. What should already be installed:
+- nodejs/npm
+- express
+- express-generator
+- gem install sass ( FOR El Capitan OSX: sudo gem install -n /usr/local/bin sass )
 
 
+2. Create new project:
+- express -e "name-of-proj" ( -e for ejs)
 
 
+3. Place Gruntfile.js and package.json into the root of new project, then run:
+- npm install
 
-## How to install it
-------------------------------------------
+The project should download all the package dependencies
 
-// Run the following in command line
-``npm install`` maybe ``sudo npm install``
-
-"sudo npm install express"
-"sudo npm install express-generator"
 
 
 ## How to RUN it
