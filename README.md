@@ -33,9 +33,8 @@ Term 2:
 
 
 
-IN PROJECT: 
-###########################################
-
+## In the project
+------------------------------------------
 Create the following hidden files:
 
 .gitignore - paste the following: (git ignore these)
