@@ -16,7 +16,10 @@ express -e "name-of-proj" ( -e for ejs)
 
 
 3. Place Gruntfile.js and package.json into the root of new project, then run:
+
 npm install
+or 
+sudo npm install -g grunt
 
 The project should download all the package dependencies
 
